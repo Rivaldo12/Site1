@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@200&display=swap');
+body{
+    margin: 0;
+}
+
+.fundo{
+    display:flex;
+    background-color: #171C25;
+    width: 100vw;
+    height: 100vh;
+}
+
+.lado1{
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.lado1 > h1{
+    margin: 0;
+    margin-bottom: 30%;
+    font-weight: 500;
+    color: #4472CC;
+    font-size: 60px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.lado1 > h3{
+    margin: 0;
+    margin-bottom: 1.5%;
+    font-weight: 500;
+    color:#CDEDFF;
+    font-size: 30px;
+    font-family: 'Hahmlet', serif;
+
+}
+
+.lado1 > p{
+    margin: 0;
+    font-weight: 100;
+    color:#ffffff;
+    font-size: 14px;
+    font-family: 'Hahmlet', serif;
+}
+
+.lado1 > button{
+    font-size: 28px;
+    font-family: 'Hammersmith One', sans-serif;
+    color: white;
+    margin-top: 12%;
+    border-style: none;
+    border-radius: 15px;
+    width: 30%;
+    height: 7%;
+}
+
+.log{
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 30px -6px #0050EF;
+    background: #558EFF;
+    margin-right: 50px;
+}
+
+.reg{
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+    background: #416ABB;
+}
+
+.lado2{
+    margin-left: 10%;
+    margin-top: 3.5%;
+}
+.lado2 > img{
+    
+    border-radius: 20px;
+    width: 450px;
+}

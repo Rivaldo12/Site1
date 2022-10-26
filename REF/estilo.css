@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+
+body{
+  padding: 0px;
+    margin: 0px;
+}
+.fundo{
+  justify-content: center;
+
+    background: url(/img/wave.svg);
+    display:flex;
+    width: 100vw;
+    height: 100vh;
+    background-size:cover;
+}
+.fundo > h1{
+
+  font-size: 70px;
+  color:rgb(255, 255, 255);
+  text-shadow: 0em 0.02em 0px #0066ff,
+  0em 0.03em 0px #0066ff,
+  0em 0.04em 0px #0066ff,
+   0em 0.05em 0px #0066ff,
+   0em.06em 0px #0066ff,
+  0em 0.07em 0px #b9b9b9,
+  0em 0.08em 0px #b9b9b9,
+  0em 0.09em 0px #b9b9b9,
+  0em 0.1em 5px #ffffff;
+  margin-bottom: 10%;
+}
+
+.card{
+  border-style:outset;
+  border-width: 5px;
+  border-color: blue;
+  background-color: #0b5df400;
+  margin-left: 10%;
+  width: 15%;
+  height: 10%;
+  border-radius: 5%;
+}
+.com{
+  scale: 0.89;
+  display: grid;
+  position: relative;
+  margin-left: 2%;
+  width: 280px;
+  height: 350px;
+  background: white;
+  border-radius: 6%;
+}
+
+.foto{
+  padding:0;
+  margin: 0%;
+  margin-top: 10%;
+  margin-left: 34%;
+  margin-bottom: 5%;
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  background: url(/img/duro.png);
+  background-size: cover;
+  background-position-x: 50%;
+}
+
+.t1{
+  padding: 0px;
+  color:#0B5CF4;
+  font-weight: 800;
+  margin: 0px;
+  font-size: 35px;
+  margin-left: 29%;
+}
+
+.t2{
+  margin-top: 3%;
+  padding: 0px;
+  font-family: 'Libre Franklin', sans-serif;
+  color:#5289F8;
+  font-weight:200;
+  font-size: 26px;
+  margin-left: 10%;
+}
+
+.com:hover{
+  
+  transform:scale(1.1);
+  transition-timing-function:ease-out;
+  transition: 700ms;
+  background: #0B5CF4;
+  box-shadow: -5px 5px 100px -10px #04276d,
+  0px 2px 0px 0px #ffffff,
+  0px 3px 0px 0px #ffffff,
+  0px 4px 0px 0px #ffffff,
+  0px 5px 0px 0px #ffffff;
+}
+.com:hover > .t2{
+  color: white;
+  
+}
+.com:hover > .t1{
+  color: white;
+}
+
+.com:hover > .foto{
+  box-shadow: 1px 2px 0px 0px #ffffff,
+  -1px 2px 0px 0px #ffffff,
+  -1px -2px 0px 0px #ffffff,
+  1px -2px 0px 0px #ffffff;
+}
+
+.fundo2{
+  overflow-y: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 80, 211, 1);
+  display: flex;
+  width: 100%;
+  height: 60vh;
+}
+.fundo2-3{
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 80, 211, 1);
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+}
